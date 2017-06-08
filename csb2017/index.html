@@ -144,7 +144,16 @@ unzip csb2017.zip
 </code></pre>
 <p>Alternatively, you can <a href="csb2017.zip">download the workshop materials directly from this link</a>.</p>
 <p><br />
-</p>
+Now let’s enter a couple commands that will make things run more smoothly on the lab computers we are using for today’s workshop.</p>
+<pre class="bash"><code>#This will give us an easily accessible link on the Desktop to run RStudio, which we will use in the first two exercises.
+ln -s /usr/local/rstudio/bin/rstudio
+
+#And this will add BLAST executables and Circos to your PATH, so you don't have to provide the full path each time you call the programs.
+echo PATH=$PATH:/usr/local/circos/bin:/usr/local/blast/bin &gt;&gt; .bashrc
+
+#relaunch bash for the PATH updates to take effect
+bash
+</code></pre>
 </div>
 <div id="exercises" class="section level2">
 <h2>Exercises</h2>
