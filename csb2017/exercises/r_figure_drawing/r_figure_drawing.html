@@ -361,7 +361,7 @@ dev.off()</code></pre>
 <p>One advantage of code-based statistical packages like R is that you can combine scripts into large data analysis pipelines. For this reason, it can often be useful to run R code without opening an RStudio or R console session. Lets see an example of this. To draw the gene map in Part 2, we could of built a script instead of entering all that code piece by piece. In fact, if you inspect the file called <code>comparative_gene_map.R</code>, you will find that it contains essentially the same code as we used to make our map. However, it can be called directly from the command line (with any genes and connections file to produce any map you want).</p>
 <p>To test this out, open a Terminal session (not Rstudio or the R console) and <code>cd</code> in the directory for this exercise. You can also view the content of the script using <code>less</code> (and type <code>q</code> to exit when your done looking at it).</p>
 <pre class="bash"><code>#Run the following from a bash terminal (not in R)
-cd ~/Desktop/csb2017/r_figure_drawing/R_figure_drawing
+cd ~/Desktop/csb2017/r_figure_drawing
 less comparative_gene_map.R</code></pre>
 <p>Run the following command which will execute the script in R and pass the arguments for input and output files to the script.</p>
 <pre class="bash"><code>#Run the following from a bash terminal (not in R). Note that for this to work, the Rscript executable must be in your PATH.
