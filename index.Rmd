@@ -1,9 +1,62 @@
 ---
-title: "Sloan Lab Resources"
-output: html_document
+title: "Welcome to CSB 2017 Genomics Data Visualization Workshop!"
+output:
+  html_document
 ---
 
-### [2017 Computational Biology and Genomics Workshop (Todos Santos, Mexico)](https://sites.biology.colostate.edu/dbsloan/TodosSantos2017/bienvenidos.html)
+<script>
+   $(document).ready(function() {
+     $head = $('#header');
+     $head.prepend('<img src=\"exercises/Logo.png\" style=\"float: right;width: 250px;\"/>')
+   });
+</script>
 
-### [2017 Genomic Data Visualization Workshop (Front Range CSB Symposium)](csb2017)
+\
+\
+
+
+## Downloading Workshop Materials
+
+\
+
+Thank you for joining us. Today, we are going to run through three exercises related to data visualization. To begin, open a Terminal session and enter the following commands:
+
+<pre class="bash"><code>#Change directories to your Desktop
+cd Desktop
+
+#Download workshop materials with wget
+wget http://dbsloan.github.io/csb2017/csb2017.zip
+
+#Unzip the workshop materials
+unzip csb2017.zip
+</code></pre>
+
+
+Alternatively, you can [download the workshop materials directly from this link](csb2017.zip).
+
+\
+
+Now let's enter a couple commands that will make things run more smoothly on the lab computers we are using for today's workshop.
+
+<pre class="bash"><code>#This will give us an easily accessible link on the Desktop to run RStudio, which we will use in the first two exercises.
+ln -s /usr/local/rstudio/bin/rstudio
+
+#And this will add BLAST executables and Circos to your PATH, so you don't have to provide the full path each time you call the programs.
+echo PATH=$PATH:/usr/local/circos/bin:/usr/local/blast/bin >> ~/.bashrc
+
+#relaunch bash for the PATH updates to take effect
+bash
+</code></pre>
+
+
+## Exercises
+
+
+Detailed documentation for each of three exerecises can be accessed with the following links.
+
+### Part 1: [Plotting Genomic Data with R and ggplot](exercises/ggplot/ggplot.html)
+
+### Part 2: [Figure Drawing in R](exercises/r_figure_drawing/r_figure_drawing.html)
+
+### Part 3: [Circular Representations of Genomic Data with Circos](exercises/circos/circos.html)
 
