@@ -7,3 +7,5 @@ output: html_document
 
 ### [2017 Genomic Data Visualization Workshop (Front Range CSB Symposium)](csb2017)
 
+### [Computational Biology Resources at CSU](CSU-CompBiol.html)
+
