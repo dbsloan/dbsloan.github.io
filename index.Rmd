@@ -3,9 +3,16 @@ title: "Sloan Lab Resources"
 output: html_document
 ---
 
-### [2017 Computational Biology and Genomics Workshop (Todos Santos, Mexico)](https://sites.biology.colostate.edu/dbsloan/TodosSantos2017/bienvenidos.html)
+### Todos Santos Computational Biology Genomics Workshop
 
-### [2017 Genomic Data Visualization Workshop (Front Range CSB Symposium)](csb2017)
+- [**2017 Workshop Site**](https://sites.biology.colostate.edu/dbsloan/TodosSantos2017/bienvenidos.html)
+- [**2018 Workshop Schedule**](TS_2018_Schedule.html)
 
-### [Computational Biology Resources at CSU](CSU-CompBiol.html)
+### Genomic Data Visualization Workshop (Front Range CSB Symposium)
+
+- [**2017 Workshop**](csb2017)
+
+### Computational Biology Resources at CSU
+
+- [**Roadmap**](CSU-CompBiol.html)
 
