@@ -1,0 +1,13 @@
+Name	ResearcherType	Salary
+Alice	CompBiologist	105000
+Bob	Biologist	65000
+Carlos	CompBiologist	99000
+Diana	Biologist	72000
+Eva	CompBiologist	109000
+Frank	Biologist	73000
+George	CompBiologist	112000
+Helena	Biologist	68000
+Ingrid	CompBiologist	97000
+Juan	Biologist	61000
+Katie	CompBiologist	103000
+Laura	Biologist	70000
