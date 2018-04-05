@@ -205,7 +205,7 @@ $(document).ready(function () {
 <li>BLAST+ Executables (installed and in your PATH)</li>
 <li>Custom Perl scripts (BLASTN_parse.pl and BLASTP_parse.pl)</li>
 <li>R</li>
-<li>TextWrangler</li>
+<li>BBEdit or a text editor of your choice</li>
 <li>Microsoft Excel</li>
 </ul>
 <p>[<strong>Note: If you do not have local BLAST and/or BioPerl installed, intermediate files are stored in the <code>~/TodosSantos/exercises/local_blast/prerun/</code> directory so that you can follow along.</strong>]</p>
@@ -215,7 +215,7 @@ $(document).ready(function () {
 <div id="make-blast-databases" class="section level3">
 <h3>1. Make BLAST databases</h3>
 <p>Prior to running a local BLAST search, you must first download or create a BLAST database. Familiar databases like “nr” or “nt” can be downloaded directly from NCBI for use in local searches, but you can also create a custom BLAST database from any input file in <a href="https://en.wikipedia.org/wiki/FASTA_format">FASTA format</a>. In this exercise, we will make two BLAST databases. One will be made from the entire set of protein sequences from a particular strain of <em>Escherichia coli</em>, and the other will consist of a single nucleotide sequence of the entire <em>E. coli</em> genome.</p>
-<p>First, open a Terminal session and enter the command to move into the directory with the relevant files for this exercise.</p>
+<p>First, open a Terminal session and connect to your account on our workshop server. Once you have done that, enter the following command to move into the directory with the relevant files for this exercise.</p>
 <pre class="bash"><code>cd ~/TodosSantos/exercises/local_blast/</code></pre>
 <p>The directory contains FASTA files with E. coli protein sequences (<code>Ecoli.proteins.fas</code>) and the <em>E. coli</em> genome sequence (<code>Ecoli.genome.fas</code>). To convert these files into BLAST databases run the following commands. As you can see, the <code>-dptype</code> flag is required so that you can specify whether the sequences are nucleotide (<code>nucl</code>) or amino acid (<code>prot</code>) sequences.</p>
 <pre class="bash"><code>makeblastdb -in Ecoli.proteins.fas -dbtype prot
@@ -262,7 +262,7 @@ Ecoli.proteins.fas.psq</p>
 ## zwf  zwf 97.3577235772358</code></pre>
 <p>Each line corresponds to a <em>Salmonella</em> protein and reports its top <em>E. coli</em> hit and the percent amino acid identity between the query and the hit. You can view all of the parsed output file (<code>blastp.parsed.txt</code>) from the command line with <code>less</code> or by opening it in Microsoft Excel.</p>
 <p>Note that we have only extracted a very small amount of information from the BLAST output (name of the query sequence, name of the top hit sequence, and percent identity of the top hit). But depending on your needs, you can extract essentially any of the information you could want from the file, including alignment lengths, positions, orientations, sequences, scores, etc.</p>
-<p>Open the <code>BLASTP_parse.pl</code> script in TextWrangler. The Perl code is complicated, but look at it to get a general sense of what it is doing.</p>
+<p>Open the <code>BLASTP_parse.pl</code> script in BBEdit (or a command-line editor like <code>nano</code>). The Perl code is complicated, but look at it to get a general sense of what it is doing.</p>
 <p>Now try changing line 25 from…</p>
 <blockquote>
 <p>$value = $hsp_obj-&gt;percent_identity;</p>
@@ -282,7 +282,7 @@ Ecoli.proteins.fas.psq</p>
 <pre class="bash"><code>less blastn.txt</code></pre>
 <p>This is a plain-text version of the information you would see when you run a BLAST search online. To exit viewing the file, type <code>q</code>. As above, we will use a BioPerl script to parse and summarize the BLAST output. But in this case, we are going to use a script that will report much more information about each alignment.</p>
 <pre class="bash"><code>./BLASTN_parse.pl blastn.txt &gt; blastn.parsed.txt</code></pre>
-<p>The parsed output file (<code>blastn.parsed.txt</code>) has numerous columns so open it in Microsoft Excel to view it. Note that the output file reports the positions of both the query and the hit for each BLAST alignment. Try using these to make a “dot-plot”.</p>
+<p>The parsed output file (<code>blastn.parsed.txt</code>) has numerous columns so open it in Microsoft Excel to view it (you will have to transfer it back to your local machine first). Note that the output file reports the positions of both the query and the hit for each BLAST alignment. Try using these to make a “dot-plot”.</p>
 </div>
 <div id="plot-data-in-r" class="section level3">
 <h3>5. Plot data in R</h3>

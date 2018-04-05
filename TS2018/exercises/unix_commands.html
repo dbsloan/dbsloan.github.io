@@ -134,7 +134,7 @@ $(document).ready(function () {
 <li><a href="#list-files-in-current-directory">5. List files in current directory</a></li>
 <li><a href="#create-a-new-directory-and-move-file-into-it">6. Create a new directory and move file into it</a></li>
 <li><a href="#add-content-to-file">7. Add content to file</a></li>
-<li><a href="#view-content-of-file">8. View content of file</a></li>
+<li><a href="#view-contents-of-file">8. View contents of file</a></li>
 <li><a href="#edit-file-with-a-command-line-text-editor">9. Edit file with a command line text editor</a></li>
 <li><a href="#delete-file">10. Delete file</a></li>
 <li><a href="#practice-unix-commands">11. Practice UNIX commands</a></li>
@@ -222,6 +222,15 @@ $(document).ready(function () {
 <pre class="bash"><code>ls -l</code></pre>
 <p>Also, you can include any “hidden” files in your list with the <code>-a</code> option.</p>
 <pre class="bash"><code>ls -a</code></pre>
+<p>Note that we are not explicitly stating the directory for which we want to list files. If we do not specify the directory, it is assumed that we are asking for the current working directory (i.e., the one we are in).</p>
+<p>We could also specify a diretory. For example <code>~</code> is a shorthand way to refer to your home directory, so the following command will list the files in your home directory.</p>
+<pre class="bash"><code>ls ~</code></pre>
+<p>Another useful shorthand is <code>.</code> which refers to your present directory. So the following command should report the same output as the <code>ls</code> command by itself.</p>
+<pre class="bash"><code>ls .</code></pre>
+<p>In contrast, <code>..</code> refers to “parent” directory for your current working directory (i.e., one level up in the file system). So try the following command to see what it reports.</p>
+<pre class="bash"><code>ls ..</code></pre>
+<p>All of the examples so far represent shorthand ways to refer to locations on the machine. However, you can always refer to the “path” for a location, which involves the series of directory names separated by<code>/</code>characters. Paths can be specified starting from the current working directory (a “relative” path) or starting from the “root” of the entire file system (an “absolute” path). You will often need to do this when referring to files or programs that are not in your current working directory.</p>
+<p>The <code>pwd</code> command that you used in part 3 above should have given you the full absolute path to your current working directory. Enter the <code>ls</code> command with that full path and confirm that it produces the same output as <code>ls .</code> and <code>ls</code> by itself.</p>
 <p><br />
 </p>
 </div>
@@ -253,8 +262,8 @@ $(document).ready(function () {
 <p><br />
 </p>
 </div>
-<div id="view-content-of-file" class="section level3">
-<h3>8. View content of file</h3>
+<div id="view-contents-of-file" class="section level3">
+<h3>8. View contents of file</h3>
 <p>Let’s confirm that we successfully added content to our <code>birthday.txt</code> file. There are multiple ways to view the contents of a file. First, the <code>cat</code> (concatenate) function will print the contents of a file to the screen.</p>
 <pre class="bash"><code>cat birthday.txt</code></pre>
 <pre><code>## YOUR NAME HERE
@@ -311,7 +320,7 @@ $(document).ready(function () {
 <li><p>Display the contents of the <code>dna.txt</code> file in the terminal. Are the sequences properly basepaired?</p></li>
 <li><p>From the command line, delete the the entire <code>dna</code> directory (including the <code>dna.txt</code> file).</p></li>
 <li><p>Confirm that the <code>dna</code> directory was deleted.</p></li>
-<li><p>Once you have completed the exercise, change back into the <code>unix_commands</code> directory. Note that <code>..</code> is a shortcut reference to the “parent directory” for your current directory. Practice using some of the <a href="resources/unix_commands.pdf">commands in this summary file</a>. Commands for viewing or manipulating files can be practiced on the <code>miRNA.fa</code> file. Try executing the <code>welcome.sh</code> script from the command line.</p></li>
+<li><p>Once you have completed the exercise, change back into the <code>unix_commands</code> directory. Rember that <code>..</code> is a shortcut reference to the “parent directory” for your current directory. Practice using some of the <a href="resources/unix_commands.pdf">commands in this summary file</a>. Commands for viewing or manipulating files can be practiced on the <code>miRNA.fa</code> file. Try executing the <code>welcome.sh</code> script from the command line.</p></li>
 </ol>
 </div>
 </div>
