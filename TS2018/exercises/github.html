@@ -191,10 +191,7 @@ On the resulting screen…</p>
 <div id="clone-your-newly-created-repository" class="section level3">
 <h3>3. Clone your newly created repository</h3>
 <p>Open a terminal session. If you have git command line tools installed on your machine, you can perform this exercise locally. If not, you can ssh to the linux server for the workshop.</p>
-<p>Now, change directories to a location where you would like to download the GitHub repository that you just made. For example, if you have created a <code>TodosSantos</code> directory for your workshop exercises, you can <code>cd</code> into that.</p>
-<pre class="bash"><code>cd ~/TodosSantos</code></pre>
-<p><br />
-</p>
+<p>Now, change directories (<code>cd</code>) to a location where you would like to download the GitHub repository that you just made.</p>
 <p>Then enter the following command to download your repository, where <strong>XXXUSERXXX</strong> is your GitHub user name.</p>
 <pre class="bash"><code>git clone https://github.com/XXXUSERXXX/todos_santos_test.git</code></pre>
 <p>Once, this action completes, you should see that it has created a new directory called <code>todos_santos_test</code>, which contains a single file called <code>README.md</code> (technically, there are also some hidden files in a directory called <code>.git</code>, which Git will use to track changes within this directory).</p>
@@ -225,6 +222,7 @@ Now enter the following command to add your changes such that they are included 
 <p><br />
 Now commit your changes with the <code>git commit</code> command. The <code>-m</code> flag allows you to add a message associated with this commit. It is always a good idea to give a short message that indicates the main point of this update.</p>
 <pre class="bash"><code>git commit -m 'My first GitHub commit!'</code></pre>
+<p><strong>[Note the first time you make a commit from a new computer you may be prompted to run <code>git config</code> to set <code>user.name</code> and <code>user.email</code>. Follow the instructions in the prompt to do so. Then re-run the <code>git commit</code> command above.]</strong></p>
 <p><br />
 Finally, push these changes to GitHub. This command will actually update the public GitHub repository based on the changes you committed above.</p>
 <pre class="bash"><code>git push</code></pre>
