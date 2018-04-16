@@ -6,7 +6,7 @@ output: html_document
 ### Todos Santos Computational Biology Genomics Workshop
 
 - [**2017 Workshop Site**](https://sites.biology.colostate.edu/dbsloan/TodosSantos2017/bienvenidos.html)
-- [**2018 Workshop Schedule**](TS_2018_Schedule.html)
+- [**2018 Workshop Site**](TS2018)
 
 ### Genomic Data Visualization Workshop (Front Range CSB Symposium)
 
