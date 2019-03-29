@@ -7,6 +7,7 @@ output: html_document
 
 - [**2017 Workshop Site**](https://sites.biology.colostate.edu/dbsloan/TodosSantos2017/bienvenidos.html)
 - [**2018 Workshop Site**](TS2018)
+- [**2019 Workshop Site**](TS2019)
 
 ### Genomic Data Visualization Workshop (Front Range CSB Symposium)
 
