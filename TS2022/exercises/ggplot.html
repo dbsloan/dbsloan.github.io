@@ -279,7 +279,7 @@ singlePlot</code></pre>
 <br />
 <br />
 </p>
-<p>Now, let’s distinguish between “genic” and “intergenic” regions as defined in the input file. We can add to our aesthetic mappings by including a <code>color</code> statement and associating with the <code>Region</code> variable in our data set..</p>
+<p>Now, let’s distinguish between “genic” and “intergenic” regions as defined in the input file. We can add to our aesthetic mappings by including a <code>color</code> statement and associating with the <code>Region</code> variable in our data set.</p>
 <pre class="r"><code>singlePlot = ggplot (data=RNAseq_chrom21, aes(x=Pos, y=RCM, color=Region)) + geom_point()
 
 singlePlot</code></pre>
@@ -404,6 +404,7 @@ To verify that you have produced a publication-quality multipanel figure, open t
 <li><p><a href="https://learn.datacamp.com/">Datacamp</a>: Check out the courses on Introduction to Data Visualization with ggplot2, Intermediate Data Visualization with ggplot2, and Visualization Best Practices in R.</p></li>
 <li><p><a href="https://wilkelab.org/SDS375/syllabus.html">Claus Wilke’s Data Visualization Course at U Texas</a></p></li>
 <li><p><a href="https://r4ds.had.co.nz/">R for Data Science</a></p></li>
+<li><p><a href="https://guangchuangyu.github.io/software/ggtree/">ggtree</a>: If you work with phylogenetic trees and want to generate plots or tables that line up with the tips of your tree, ggtree is a usual extension to ggplot.</p></li>
 </ul>
 </div>
 
