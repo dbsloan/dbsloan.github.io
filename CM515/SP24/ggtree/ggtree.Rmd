@@ -11,7 +11,7 @@ Tree-like representations are a common visualization technique. Examples include
 This exercise will introduce you to working with [ggtree](https://guangchuangyu.github.io/software/ggtree/) and associated R packages. The exercise is based on unpublished data from Shady Kuster and [adapted from a workflow developed by Evan Forsythe](https://github.com/EvanForsythe/qCMB_workshop).
 
 ## Slides
-Slides from today's presentation are [available for download here](DataVisualizationII.pdf).
+Slides from today's presentation are [available for download here](DataVisualizationI.pdf).
 
 ## Objectives
 The goal of this exercise is to learn how to import phylogenetic trees into R, visualize them, and plot data in ways that is properly associated with the corresponding nodes and tips of the tree.
