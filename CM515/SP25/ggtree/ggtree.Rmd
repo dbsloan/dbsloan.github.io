@@ -76,7 +76,10 @@ ggplot(tree) + geom_tree() +
 
 You can use some familiar `ggplot` commands and parameters to control the visualization.
 
-<pre class="r"><code>ggplot(tree) + geom_tree(<b>color="firebrick", size=0.5, linetype="dotted", layout="roundrect"</b>) + geom_tiplab(<b>size=3</b>) + theme_tree()</code></pre>
+<pre class="r"><code>ggplot(tree) +
+  geom_tree(<b>color="firebrick", size=0.5, linetype="dotted", layout="roundrect"</b>) + 
+  geom_tiplab(<b>size=3</b>) + 
+  theme_tree()</code></pre>
 
 ```{r echo=FALSE}
 ggplot(tree) + 
