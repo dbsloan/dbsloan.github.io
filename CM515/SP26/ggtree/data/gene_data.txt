@@ -1,0 +1,72 @@
+Newick_label	Domain_Start	Domain_End	Domain_Name	Seq_Length	Plastid_Targeting
+MutS2a_AT5G54090	118	348	MutS_III superfamily	796	0.28
+MutS2a_AT5G54090	436	619	MutS_V	796	0.28
+O_sativa_LOC_Os10g36530.1	3	212	MutS_III superfamily	550	0
+O_sativa_LOC_Os10g36530.1	325	517	MutS_V	550	0
+C_braunii_GBG66194	151	312	MutS_V	561	0
+C_braunii_GBG83953	673	859	MutS_V	1200	0.07
+C_braunii_GBG83953	317	537	MutS_III superfamily	1200	0.07
+C_braunii_GBG83953	1110	1178	SMR	1200	0.07
+C_paradoxa_Contig9550	18	196	MutS_V	223	0.02
+P_patens_3c5_20780V3.1.p	237	443	MutS_III superfamily	872	0.27
+P_patens_3c5_20780V3.1.p	511	697	MutS_V	872	0.27
+M_polymorpha_0023s0121.1.p	186	441	MutS_III superfamily	861	0.24
+M_polymorpha_0023s0121.1.p	509	695	MutS_V	861	0.24
+M_endlicherianum_ME000591S08501	354	561	MutS_III superfamily	930	0
+M_endlicherianum_ME000591S08501	746	925	MutS_V	930	0
+S_moellendorffii_421325	176	357	MutS_III superfamily	643	0.02
+S_moellendorffii_421325	420	562	MutS_V	643	0.02
+C_reinhardtii_01.g040350.t1.1	453	636	MutS_V	1268	0
+C_reinhardtii_01.g040350.t1.1	134	289	MutS_III superfamily	1268	0
+O_lucimarinus_38770	507	694	MutS_V	725	0.26
+O_lucimarinus_38770	158	362	MutS_III superfamily	725	0.26
+P_pupureum_contig_2084.1	525	731	MutS_V	1034	0.35
+P_pupureum_contig_2084.1	959	1034	SMR	1034	0.35
+P_pupureum_contig_2084.1	290	481	MutS_III superfamily	1034	0.35
+MutS2b_AT1G6507	397	577	MutS_V	876	0.94
+MutS2b_AT1G6507	802	876	SMR	876	0.94
+MutS2b_AT1G6507	112	369	MutS_III superfamily	876	0.94
+O_sativa_LOC_Os04g58410.1	439	619	MutS_V	921	0.97
+O_sativa_LOC_Os04g58410.1	847	921	SMR	921	0.97
+O_sativa_LOC_Os04g58410.1	162	397	MutS_III superfamily	921	0.97
+M_polymorpha_0028s0103.1.p	535	714	MutS_V	1026	0.17
+M_polymorpha_0028s0103.1.p	214	475	MutS_III superfamily	1026	0.17
+M_polymorpha_0028s0103.1.p	955	1026	SMR	1026	0.17
+P_patens_3c17_13780V3.1.p	534	714	MutS_V	1026	0.27
+P_patens_3c17_13780V3.1.p	952	1026	SMR	1026	0.27
+P_patens_3c17_13780V3.1.p	192	476	MutS_III superfamily	1026	0.27
+P_patens_3c17_13784V3.1.p	534	714	MutS_V	1026	0.27
+P_patens_3c17_13784V3.1.p	952	1026	SMR	1026	0.27
+P_patens_3c17_13784V3.1.p	192	476	MutS_III superfamily	1026	0.27
+S_moellendorffii_141299	352	532	MutS_V	825	0
+S_moellendorffii_141299	85	324	MutS_III superfamily	825	0
+S_moellendorffii_141299	754	818	SMR	825	0
+C_braunii_GBG73512	755	938	MutS_V	1354	0.64
+C_braunii_GBG73512	420	609	MutS_III superfamily	1354	0.64
+C_braunii_GBG73512	1280	1354	SMR	1354	0.64
+P_umbilicalis_0346s0006.1.p	711	928	MutS_V	1527	0.27
+P_umbilicalis_0346s0006.1.p	1157	1230	SMR	1527	0.27
+C_reinhardtii_01.g014800.t1.1	473	665	MutS_V	1012	0.01
+C_reinhardtii_01.g014800.t1.1	152	392	MutS_III superfamily	1012	0.01
+O_lucimarinus_37894	215	399	MutS_V	502	0
+O_lucimarinus_37894	5	188	MutS_III superfamily	502	0
+M_endlicherianum_ME000114S10951	796	898	MutS_V	902	0
+M_endlicherianum_ME000114S10951	507	664	MutS_III superfamily	902	0
+Helicobacter_pylori_AAD07685.1	25	316	MutS_III superfamily	762	0
+Helicobacter_pylori_AAD07685.1	688	762	SMR	762	0
+Helicobacter_pylori_AAD07685.1	328	509	MutS_V	762	0
+Bacillus_subtilis_subsp_CAB14818.1	17	313	MutS_III superfamily	785	0
+Bacillus_subtilis_subsp_CAB14818.1	710	785	SMR	785	0
+Bacillus_subtilis_subsp_CAB14818.1	331	510	MutS_V	785	0
+Borreliella_burgdorferi_AAC66481.1	11	315	MutS_III superfamily	780	0
+Borreliella_burgdorferi_AAC66481.1	329	511	MutS_V	780	0
+Borreliella_burgdorferi_AAC66481.1	706	780	SMR	780	0
+Synechocystis_sp.BAA17670.1	19	321	MutS_III superfamily	822	0
+Synechocystis_sp.BAA17670.1	343	543	MutS_V	822	0
+Synechocystis_sp.BAA17670.1	749	822	SMR	822	0
+Aquifex_aeolicus_AAC07247.1	3	308	MutS_III superfamily	762	0
+Aquifex_aeolicus_AAC07247.1	324	505	MutS_V	762	0
+Aquifex_aeolicus_AAC07247.1	682	756	SMR	762	0
+Cyanobacterium_aponinum_WP_099434570.1	66	314	MutS_III superfamily	803	0
+Cyanobacterium_aponinum_WP_099434570.1	336	517	MutS_V	803	0
+Cyanobacterium_aponinum_WP_099434570.1	730	802	SMR	803	0
